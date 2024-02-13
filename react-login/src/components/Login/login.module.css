@@ -1,0 +1,15 @@
+form input{
+    width: 100%;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 4px;
+    /*height: 100%;*/
+    height: 25px;
+    margin-top: 2.75rem;
+    outline: none;
+    font-weight: normal;
+}
+
+form input::placeholder{
+    text-align: center;
+}

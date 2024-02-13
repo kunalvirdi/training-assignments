@@ -1,0 +1,38 @@
+.main{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    padding: 1rem 1.5rem;
+    margin: auto;
+    width: 5000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5%;
+    right: 7.5%;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .main{
+        width: 55%;
+    }
+    .icon{
+        right: 5%;
+    }
+}
+@media (min-width: 1280px) {
+    .main{
+        width: 40%;
+    }
+}
+
