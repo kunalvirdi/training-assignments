@@ -1,0 +1,42 @@
+form{
+    width: 90%;
+    margin: 0.5rem 0 1rem 0;
+    height: 30px;
+}
+form input{
+    width: 100%;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 4px;
+    height: 100%;
+    outline: none;
+    font-weight: normal;
+}
+/*#error-model{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    background-color: rgba(179, 180, 205, 0.75);*/
+/*}*/
+/*.error-message{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*    background-color: white;*/
+/*    width: max-content;*/
+/*    flex-direction: column;*/
+/*    padding: 1rem 2rem;*/
+/*    height: 25%;*/
+/*    border-radius: 15px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-weight: 900;*/
+/*    font-size: 1.25rem;*/
+/*    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+/*}*/
+form input::placeholder{
+    text-align: center;
+}
